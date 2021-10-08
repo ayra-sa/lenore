@@ -1,0 +1,115 @@
+.banner {
+  background: lightskyblue no-repeat;
+  padding: 3rem 0;
+}
+
+/* tabs */
+.blog-tabs {
+  margin-bottom: 2rem;
+  z-index: 11;
+}
+#blog-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+#blog-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  /* border-radius: 3px; */
+}
+#blog-flters li.filter-active {
+  border-bottom: 2px solid var(--oren);
+  font-weight: 700;
+}
+#blog-flters li:last-child {
+  margin-right: 0;
+}
+.blogs {
+  position: relative;
+}
+.circle1 {
+  position: absolute;
+  left: -10%;
+  top: -15%;
+}
+.circle2 {
+  position: absolute;
+  bottom: -20%;
+  right: 0;
+  text-align: end;
+}
+
+.blog-link:hover {
+  color: unset;
+}
+
+.blog {
+  padding: 2rem 0;
+}
+.blog .card {
+  border: none;
+}
+
+.blog .tag {
+  border: 1px solid var(--oren);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  margin-right: 0.85rem;
+}
+
+.blog .date {
+  color: var(--dark-grey);
+}
+
+.blog .card-body {
+  padding: 0.35rem 0;
+}
+
+.blog .card-text {
+  font-weight: 600;
+}
+
+.pagination .page-link {
+  border: none;
+  color: var(--primary);
+}
+.page-item.active .page-link {
+  z-index: 1;
+  width: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--primary);
+  background-color: var(--oren);
+  border-radius: 50%;
+  border-color: transparent;
+}
+.page-item {
+  padding: 0 0.75rem;
+}
+
+/* detail */
+.detail {
+  position: relative;
+}
+.detail .img-top {
+  width: 100%;
+}
+.blog-content h2,
+.related-title {
+  font-weight: 900;
+}
+.socmed {
+  position: absolute;
+  left: -10%;
+  top: 0;
+}

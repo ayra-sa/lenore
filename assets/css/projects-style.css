@@ -1,0 +1,23 @@
+.projects-gallery {
+  padding: 2rem;
+  position: relative;
+}
+.projects-gallery .box {
+  padding: 10px;
+}
+.carousel,
+.carousel-inner {
+  position: unset;
+}
+.carousel-control-next {
+  right: 2.5%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 0;
+  display: block;
+  color: var(--primary);
+}
+.desc-projects {
+  padding: 10px 20px;
+}

@@ -1,0 +1,124 @@
+.products {
+  padding: 2rem 0;
+}
+.banner {
+  background: lightskyblue no-repeat;
+  padding: 3rem 0;
+}
+
+.left .icon-control {
+  margin-top: 5px;
+  float: right;
+}
+.right .top {
+  position: relative;
+}
+
+.right .form .fa-search {
+  top: unset;
+  left: unset;
+  color: var(--primary);
+}
+/* .right .prod-item {
+  padding: 0;
+} */
+
+.card {
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  /* box-shadow: 0 4px 15px rgba(#000, 0.3); */
+  box-shadow: 5px 6px 6px 2px #c7c7c7;
+  transform: scale(1.025);
+  /* z-index: 11; */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: unset;
+  color: unset;
+}
+
+.accordion-button:focus {
+  box-shadow: unset;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+}
+
+.accordion-item form {
+  padding: 1rem 0;
+}
+
+.accordion-item label {
+  margin-left: 1rem;
+}
+
+.accordion-button {
+  padding: 1rem 0;
+}
+
+.prod-item .card-body p {
+  font-size: 0.8em;
+  margin-bottom: unset;
+}
+
+.right .form-control,
+.right .form-control::placeholder {
+  color: var(--primary);
+}
+
+.filter-top .btn {
+  padding: unset;
+}
+
+.filter-top .btn:focus {
+  box-shadow: unset;
+}
+.pagination .page-link {
+  border: none;
+  color: var(--primary);
+}
+.page-item.active .page-link {
+  z-index: 1;
+  width: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--primary);
+  background-color: var(--oren);
+  border-radius: 50%;
+  border-color: transparent;
+}
+.page-item {
+  padding: 0 0.75rem;
+}
+
+.table {
+  width: 70%;
+}
+
+tr .title-prod {
+  border-bottom: unset;
+  text-transform: uppercase;
+}
+
+.title-prod p {
+  margin-bottom: 0;
+}
+.title-prod h4 {
+  font-size: 3em;
+  font-weight: 900;
+}
+.prod-item:hover {
+  color: unset;
+}
+
+.table > :not(caption) > * > * {
+  padding-left: 0;
+}
+
+.related-title {
+  font-weight: 900;
+}

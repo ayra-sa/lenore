@@ -9,7 +9,7 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon" /> -->
+    <link href="assets/Homepage/LOGO LENORE-01.png" rel="icon" />
     <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
 
     <!-- Google Fonts -->
@@ -47,86 +47,20 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
-
-    <header
-      id="header"
-      class="fixed-top d-flex align-items-center header-transparent"
-    >
-      <div
-        class="
-          container-fluid container-xl
-          d-flex
-          align-items-center
-          justify-content-between
-        "
-      >
-        <div class="logo me-auto">
-          <h1>
-            <a href="index.html"
-              ><img src="assets/Homepage/LOGO LENORE-01.png" alt="logo"
-            /></a>
-          </h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-        </div>
-
-        <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Products</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="#abouta">Switches & System</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#menu">Projects</a></li>
-            <li><a class="nav-link scrollto" href="#specials">Blog</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#events">Get Catalogue</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#chefs">About</a></li>
-            <li><a class="nav-link scrollto" href="#gallery">Contact Us</a></li>
-            <li>
-              <div class="form d-flex align-items-center">
-                <i class="fa fa-search"></i>
-                <input type="text" class="form-control form-input" />
-              </div>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-      </div>
-    </header>
-    <!-- End Header -->
+    
+  <!-- navbar -->
+  <?php require_once ('./components/navbar.php'); ?>
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
       <div class="hero-container">
+        <!-- <div class="hex">
+          <img src="assets/Homepage/product - hexagon.png" alt="hero" class="hex-loop anim-hero">
+        </div> -->
         <div
           id="heroCarousel"
           data-bs-interval="5000"
@@ -164,7 +98,7 @@
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animate__animated animate__fadeInDown">
-                    Lorem Ipsum Dolor
+                    Lighting Innovation for People
                   </h2>
                 </div>
               </div>
@@ -174,7 +108,7 @@
             <div
               class="carousel-item"
               style="
-                background: url(assets/Homepage/LANDING\ PAGE\ 4.jpg);
+                background: url(assets/Homepage/LANDING\ PAGE\ 1\ NO\ LAYOUT.jpg);
                 background-position: center;
               "
             >
@@ -184,12 +118,53 @@
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animate__animated animate__fadeInDown">
-                    Sequi ea ut et est quaerat
+                    Lighting Innovation for People
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div
+              class="carousel-item"
+              style="
+                background: url(assets/Homepage/LANDING\ PAGE\ 3\ NO\ LAYOUT.jpg);
+                background-position: center;
+              "
+            >
+              <div class="carousel-background">
+                <!-- <img src="assets/Homepage/LANDING\ PAGE\ 4.jpg" alt="" /> -->
+              </div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Lighting Innovation for People
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div
+              class="carousel-item"
+              style="
+                background: url(assets/Homepage/LANDING\ PAGE\ 4\ NO\ LAYOUT.jpg);
+                background-position: center;
+              "
+            >
+              <div class="carousel-background">
+                <!-- <img src="assets/Homepage/LANDING\ PAGE\ 4.jpg" alt="" /> -->
+              </div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Lighting Innovation for People
                   </h2>
                 </div>
               </div>
             </div>
           </div>
+
 
           <a
             class="carousel-control-prev"
@@ -234,30 +209,29 @@
 
             <div class="col-lg-5 d-flex flex-column">
               <div class="content">
-                <h3 class="mb-3 fw-bold">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="mb-3 fw-bold">THE STORY OF OUR LIGHT</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                  praesentium vel dicta eum voluptatum ex ea. Eos perferendis
-                  dolorem quisquam commodi? Iure in alias recusandae laudantium
-                  quis harum debitis ut!
+                  When we strive to learn every aspect of light with passion. Cahaya Desain Indonesia was established in 2015 with its sole purpose to deliver best Value by adding professionalism to passion.
                 </p>
-                <div class="sub-story mb-4">
-                  <p class="fw-bold fs-5 mb-2">Lorem ipsum dolor sit.</p>
-                  <p class="text-uppercase">Lorem ipsum dolor sit.</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores commodi quisquam animi eaque autem modi nisi libero
-                    deleniti!
-                  </p>
+                <div class="sub-story mb-4 d-flex">
+                  <i class="story-icon"></i>
+                  <div class="info-story">
+                    <p class="fw-bold fs-5 mb-2">The Vision Of Our Light :</p>
+                    <p class="text-uppercase">PROVIDE SOCIETY WITH LIGHTS</p>
+                    <p>
+                      Strive to be the leading company in Architectural Lighting products and provide the best choice of lighting products throughout Indonesia.
+                    </p>
+                  </div>
                 </div>
-                <div class="sub-story">
-                  <p class="fw-bold fs-5 mb-2">Lorem ipsum dolor sit.</p>
-                  <p class="text-uppercase">Lorem ipsum dolor sit.</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores commodi quisquam animi eaque autem modi nisi libero
-                    deleniti!
-                  </p>
+                <div class="sub-story d-flex">
+                  <i class="story-icon"></i>
+                  <div class="info-story">
+                    <p class="fw-bold fs-5 mb-2">The Mission Of Our Light :</p>
+                    <p class="text-uppercase">CREATING CUSTOMER ORIENTED RELATIONSHIP.</p>
+                    <p>
+                      Realizing that satisfied customer is our key to success, customer relationship is our business value.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -268,13 +242,16 @@
 
       <!-- Satisfaction -->
       <section class="satisfaction" id="satisfaction">
+        <div class="dots sf-dots">
+          <img src="assets/Homepage/sp - dots.png" alt="">
+        </div>
         <div class="container">
-          <div class="row justify-content-center">
+          <div class="row justify-content-evenly">
             <div
               class="
-                col-lg-4
+                col-lg-3 col-md-4
                 text-center
-                justify-content-evenly
+                justify-content-start
                 d-flex
                 flex-column
               "
@@ -286,19 +263,16 @@
                   alt=""
                 />
               </div>
-              <h4 class="title">Customer</h4>
+              <h4 class="title">Customer Satisfaction</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis recusandae magnam commodi placeat quo libero
-                perspiciatis ratione illo dolorem impedit eum veniam corporis
-                repudiandae, cupiditate ipsum ad beatae quod vel.
+                We concern to the wants, needs and expectations of customers. Therefore, as a relationship business, we have to provide satisfactory service and even exceed their expectations
               </p>
             </div>
             <div
               class="
-                col-lg-4
+                col-lg-3 col-md-4
                 text-center
-                justify-content-evenly
+                justify-content-start
                 d-flex
                 flex-column
               "
@@ -310,19 +284,16 @@
                   alt=""
                 />
               </div>
-              <h4 class="title">Customer</h4>
+              <h4 class="title">Broad Insight</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis recusandae magnam commodi placeat quo libero
-                perspiciatis ratione illo dolorem impedit eum veniam corporis
-                repudiandae, cupiditate ipsum ad beatae quod vel.
+                We hope, to educate our consumers with a broad insight about lightning
               </p>
             </div>
             <div
               class="
-                col-lg-4
+                col-lg-3 col-md-4
                 text-center
-                justify-content-evenly
+                justify-content-start
                 d-flex
                 flex-column
               "
@@ -334,12 +305,9 @@
                   alt=""
                 />
               </div>
-              <h4 class="title">Customer</h4>
+              <h4 class="title">Satisfactory Service</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis recusandae magnam commodi placeat quo libero
-                perspiciatis ratione illo dolorem impedit eum veniam corporis
-                repudiandae, cupiditate ipsum ad beatae quod vel.
+                We have a team to provide the best and satisfactory service, as well as establish long-term and profitable relationship
               </p>
             </div>
           </div>
@@ -349,23 +317,31 @@
 
       <!-- Products -->
       <section class="product" id="product">
+        <div class="product-decor">
+          <div class="left">
+            <img src="assets/Homepage/product-line decor left.png" class="img-fluid" alt="decor">
+          </div>
+          <div class="right">
+            <img src="assets/Homepage/product-line decor right.png" class="img-fluid" alt="decor">
+          </div>
+        </div>
         <div class="front container">
           <div class="row info-product">
             <div class="col-4">
               <h4 class="title">500</h4>
-              <p>Products</p>
+              <p>Projects</p>
             </div>
             <div class="col-4 center">
-              <h4 class="title">500</h4>
-              <p>Products</p>
+              <h4 class="title">350</h4>
+              <p>Clients</p>
             </div>
             <div class="col-4">
-              <h4 class="title">500</h4>
+              <h4 class="title">1000</h4>
               <p>Products</p>
             </div>
           </div>
-          <div class="text-center">
-            <h2 class="title text-light">Lorem, ipsum.</h3>
+          <div class="text-center mt-5">
+            <h2 class="title text-light fs-1">Our Products</h3>
           </div>
           <div class="product-img d-flex">
             <figure class="img-box">
@@ -375,9 +351,9 @@
                 alt="products"
               />
               <figcaption>
-                <p class="title text-light text">Interiror</p>
+                <p class="fs-2 title text-light text">Interiror</p>
                 <button class="btn btn-view">
-                  <a href="#" class="">View All</a>
+                  <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </button>
               </figcaption>
             </figure>
@@ -388,9 +364,9 @@
                 alt="products"
               />
               <figcaption>
-                <p class="title text-light text">Exterior</p>
+                <p class="fs-2 title text-light text">Exterior</p>
                 <button class="btn btn-view">
-                  <a href="#" class="">View All</a>
+                  <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </button>
               </figcaption>
             </figure>
@@ -401,9 +377,9 @@
                 alt="products"
               />
               <figcaption>
-                <p class="title text-light text">Others</p>
+                <p class="fs-2 title text-light text">Others</p>
                 <button class="btn btn-view">
-                  <a href="#" class="">View All</a>
+                  <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </button>
               </figcaption>
             </figure>
@@ -413,58 +389,66 @@
 
       <!-- Gallery -->
       <section class="gallery" id="gallery">
+        <div class="hexagon g-hex">
+          <img src="assets/Homepage/blog - hexagon.png" class="img-fluid" alt="">
+        </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 d-flex">
-              <div class="col-lg-7">
+            <div class="anim">
+              <img src="assets/Homepage/product - yellow square.png" class="anim-loop anim-product" alt="anim">
+            </div>
+            <div class="col-lg-12 d-flex top-projects">
+              <div class="col-lg-7 col-md-6 col-sm-6">
                 <h2 class="title">Projects</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>We deliver the lighting products come true with the best idea. That's what partnership are for.</p>
               </div>
-              <div class="col-lg-5 text-end m-auto">
-                <a href="#" class="btn btn-view-all">View All</a>
+              <div class="col-lg-5 col-md-6 col-sm-6 text-end m-auto">
+                <button class="btn">
+                  <a href="projects-gallery.php" class="btn-view-all">View All Projects</a>
+                </button>
                 <!-- <button class="btn btn-view-all">
                 </button> -->
               </div>
             </div>
-            <div class="col-lg-4 box box-1">
+            <div class="col-lg-4 col-md-4 col-sm-4 box box-1">
               <img
                 src="assets/Homepage/project-airport.png"
                 class="img-fluid"
                 alt="projects"
               />
               <div class="desc">
-                <h4 class="title text-light">Lorem ipsum dolor sit amet consectetur.</h4>
+                <h4 class="text-light">Plaza Premium Lounge - Bandara Soekarno Hatta Terminal 3</h4>
               </div>
             </div>
-            <div class="col-lg-8 d-flex flex-wrap align-content-end">
-              <div class="col-lg-12 box box-2">
+            <div class="right-proj col-lg-8 col-md-8 col-sm-8 d-flex flex-wrap align-content-end">
+              <div class="col-lg-12 col-md-12 col-sm-12 box box-2">
                 <img
                   src="assets/Homepage/project-adidas.png"
                   class="img-fluid"
                   alt="projects"
                 />
                 <div class="desc">
-                  <h4 class="title text-light">Lorem ipsum dolor sit amet consectetur.</h4>
+                  <h4 class="text-light">ADIDAS Pondok Indah Mall 3</h4>
                 </div>
               </div>
-              <div class="col-lg-6 box box-3">
+              <div class="col-lg-6 col-md-6 col-sm-6 box box-3">
                 <img
                   src="assets/Homepage/project-loreal.png"
                   class="img-fluid"
                   alt="projects"
                 />
                 <div class="desc">
-                  <h4 class="title text-light">Lorem ipsum dolor sit amet consectetur.</h4>
+                  <h4 class="text-light">LOREAL Academy Lotte Shopping Avenue Kuningan</h4>
                 </div>
               </div>
-              <div class="col-lg-6 box box-4">
+              <div class="col-lg-6 col-md-6 col-sm-6 box box-4">
                 <img
                   src="assets/Homepage/project-kokoro.png"
                   class="img-fluid"
                   alt="projects"
                 />
                 <div class="desc">
-                  <h4 class="title text-light">Lorem ipsum dolor sit amet consectetur.</h4>
+                  <h4 class="text-light">KOKORO Living World Alam Sutera</h4>
                 </div>
               </div>
             </div>
@@ -475,12 +459,18 @@
 
       <!-- Blog -->
       <section id="blog" class="blog">
-        <div class="container">
+        <div class="dots blog-dots">
+          <img src="assets/Homepage/blog - dots.png" alt="">
+        </div>
+        <div class="container mt-4">
           <div class="row justify-content-between">
+            <div class="anim">
+              <img src="assets/Homepage/blog - square.png" alt="anim" class="anim-loop anim-blog">
+            </div>
             <div class="section-title">
               <h2 class="title">Lenore Blog</h2>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 mb-4">
               <div class="card">
                 <img
                   src="assets/Homepage/blog 1.png"
@@ -489,17 +479,17 @@
                 />
                 <div class="card-body">
                   <div class="card-title d-flex align-items-center">
-                    <p class="tag">Hello</p>
-                    <p class="date">Hello</p>
+                    <p class="tag">Blog</p>
+                    <p class="date">20 September 2021</p>
                   </div>
-                  <p class="card-text">
+                  <p class="card-text mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
-                  <a href="#" class="read">Read</a>
+                  <a href="blog-list.php" class="read">Read</a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 mb-4">
               <div class="card">
                 <img
                   src="assets/Homepage/blog 2.png"
@@ -508,17 +498,17 @@
                 />
                 <div class="card-body">
                   <div class="card-title d-flex align-items-center">
-                    <p class="tag">Hello</p>
-                    <p class="date">Hello</p>
+                    <p class="tag">News</p>
+                    <p class="date">20 September 2021</p>
                   </div>
-                  <p class="card-text">
+                  <p class="card-text mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
-                  <a href="#" class="read">Read</a>
+                  <a href="blog-list.php" class="read">Read</a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 mb-4">
               <div class="card">
                 <img
                   src="assets/Homepage/blog 3.png"
@@ -527,18 +517,18 @@
                 />
                 <div class="card-body">
                   <div class="card-title d-flex align-items-center">
-                    <p class="tag">Hello</p>
-                    <p class="date text-muted">Hello</p>
+                    <p class="tag">Events</p>
+                    <p class="date text-muted">20 September 2021</p>
                   </div>
-                  <p class="card-text">
+                  <p class="card-text mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
-                  <a href="#" class="read">Read</a>
+                  <a href="blog-list.php" class="read">Read</a>
                 </div>
               </div>
             </div>
             <div class="col-lg text-center mt-3">
-              <a href="#" class="btn btn-view-all">Read More</a>
+              <a href="blog-list.php" class="btn btn-view-all">Read More</a>
             </div>
           </div>
         </div>
@@ -547,18 +537,22 @@
 
       <!-- Contact -->
       <section id="contact" class="contact">
+        <div class="dots contact-dots">
+          <img src="assets/Homepage/contact us - dots.png" class="img-fluid" alt="">
+        </div>
         <div class="container-fluida">
           <div class="row align-items-center">
-            <div class="col-lg-6 align-items-stretch">
+            <div class="col-lg-6 col-md-6 align-items-stretch img-contact">
               <img
                 src="assets/Homepage/contact us.png"
                 class="img-fluid"
                 alt="contact"
               />
+              <img src="assets/Homepage/contact us-line.png" alt="decor" class="decor">
             </div>
 
-            <div class="col-lg-5">
-              <h2>Contact Us</h2>
+            <div class="col-lg-5 col-md-5 contact-form">
+              <h2 class="title mb-3">Contact Us</h2>
               <form>
                 <div class="form-group">
                   <input
@@ -608,13 +602,14 @@
       <!-- End Contact -->
     </main>
 
-    <this-footer></this-footer>
+    <!-- Modal -->
+  <?php require_once ('./components/modal.php'); ?>
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <!-- whatsapp button -->
+    <?php require_once ('./components/wa.php'); ?>
+
+    <!-- footer -->
+    <?php require_once ('./components/footer.php'); ?>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -625,9 +620,5 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
-    <!-- Components -->
-    <!-- <script type="module" src="components/navbar.js"></script> -->
-    <script type="module" src="components/footer.js"></script>
   </body>
 </html>
