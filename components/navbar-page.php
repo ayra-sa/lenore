@@ -30,7 +30,7 @@
           
           <!-- Navbar dropdown -->
           <li class="nav-item dropdown dropdown-hover position-static">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle" href="./index.php#product" id="navbarDropdown" role="button"
               data-mdb-toggle="dropdown" aria-expanded="false">
               Product
             </a>
@@ -73,13 +73,13 @@
           <li>
             <a class="nav-link scrollto" href="#abouta">Switches & System</a>
           </li>
-          <li><a class="nav-link scrollto" href="#gallery">Projects</a></li>
-          <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
+          <li><a class="nav-link scrollto" href="./index.php#gallery">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#">Blog</a></li>
           <li>
             <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#getCatalogue" href="">Get Catalogue</a>
           </li>
-          <li><a class="nav-link scrollto" href="#chefs">About</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="#">About</a></li>
+          <li><a class="nav-link scrollto" href="./index.php#contact">Contact Us</a></li>
           <li>
             <div class="form d-flex align-items-center">
               <i class="fa fa-search"></i>

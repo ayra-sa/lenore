@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
 
+    <link href="assets/Homepage/LOGO LENORE-01.png" rel="icon" />
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
@@ -39,7 +41,17 @@
 
   </head>
   <body>
-  <?php require_once ('./components/navbar.php'); ?>
+    <!-- ======= Header ======= -->
+
+<header
+      id="header"
+      class="header-page fixed-top d-flex align-items-center">
+      
+      <!-- navbar -->
+      <?php require_once ('./components/navbar-page.php'); ?>
+
+</header>
+<!-- End Header -->
 
     <main>
       <section class="banner">

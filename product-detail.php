@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
 
+    <link href="assets/Homepage/LOGO LENORE-01.png" rel="icon" />
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
@@ -39,8 +41,17 @@
 
   </head>
   <body>
-  <?php require_once ('./components/navbar.php'); ?>
+<!-- ======= Header ======= -->
 
+<header
+      id="header"
+      class="header-page fixed-top d-flex align-items-center">
+      
+      <!-- navbar -->
+      <?php require_once ('./components/navbar-page.php'); ?>
+
+</header>
+<!-- End Header -->
     <main>
       <section class="products">
         <div class="container">
@@ -151,7 +162,7 @@
           </div>
           <div class="row btm mt-5">
             <h2 class="related-title mb-4">You Might Also Like</h2>
-            <a href="product-detail.php" class="col-lg-3 col-md-5 prod-item">
+            <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
                 <img
                   class="card-img-top"
@@ -163,7 +174,7 @@
                 </div>
               </div>
             </a>
-            <a href="product-detail.php" class="col-lg-3 col-md-5 prod-item">
+            <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
                 <img
                   class="card-img-top"
@@ -175,7 +186,7 @@
                 </div>
               </div>
             </a>
-            <a href="product-detail.php" class="col-lg-3 col-md-5 prod-item">
+            <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
                 <img
                   class="card-img-top"
@@ -187,7 +198,7 @@
                 </div>
               </div>
             </a>
-            <a href="product-detail.php" class="col-lg-3 col-md-5 prod-item">
+            <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
                 <img
                   class="card-img-top"

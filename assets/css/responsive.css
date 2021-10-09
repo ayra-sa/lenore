@@ -33,16 +33,25 @@
     left: 10px;
     top: 10px;
   }
+  .products .table {
+    width: 100%;
+  }
+  .circle1 {
+    top: 0;
+  }
+  .circle2 {
+    bottom: -3%;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .mobile-nav-toggle {
+  /* .mobile-nav-toggle {
     display: block;
   }
   .navbar ul {
     display: none;
-  }
+  } */
   #hero .carousel-container {
     left: 12%;
   }

@@ -51,9 +51,17 @@
   </head>
 
   <body>
+    <!-- ======= Header ======= -->
+
+<header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent">
+      <!-- navbar -->
+      <?php require_once ('./components/navbar.php'); ?>
+      
+</header>
+<!-- End Header -->
     
-  <!-- navbar -->
-  <?php require_once ('./components/navbar.php'); ?>
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
