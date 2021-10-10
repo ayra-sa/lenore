@@ -35,13 +35,11 @@
               Product
             </a>
             <!-- Dropdown menu -->
-            <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
-                    border-top-right-radius: 0;
-                  ">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
   
               <div class="container">
                 <div class="row my-4">
-                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                     <div class="list-group list-group-flush">
                       <p>Interior</p>
                       <a href="" class="list-group-item list-group-item-action">Spot</a>
@@ -51,7 +49,7 @@
                       <a href="" class="list-group-item list-group-item-action">Magnetic</a>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                     <div class="list-group list-group-flush">
                       <p>Exterior</p>
                       <a href="" class="list-group-item list-group-item-action">Facade</a>
@@ -60,9 +58,9 @@
                       <a href="" class="list-group-item list-group-item-action">Wall</a>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                  <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
                     <div class="list-group list-group-flush">
-                      <p>ACC & Sparepart</p>
+                      <p>Others</p>
                     </div>
                   </div>
                   

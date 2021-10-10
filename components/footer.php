@@ -15,7 +15,7 @@
                 <a href="#"><img src="assets/Homepage/socmed - youtube.png" alt="social"></a>
               </div>
             </div>
-            <ul class="col-lg-2 col-md-6 mt-4">
+            <ul class="col-lg-2 col-md-6 m-foot">
               <li>
                 <h4 class="sub-footer mb-3">Information</h4>
               </li>
@@ -24,14 +24,14 @@
               <li><a href="#">Blog</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
-            <ul class="col-lg-2 col-md-6 mt-4">
+            <ul class="col-lg-2 col-md-6 m-foot">
               <li>
                 <h4 class="sub-footer mb-3">Products</h4>
               </li>
               <li><a href="#">All Products</a></li>
               <li><a href="#">Download</a></li>
             </ul>
-            <div class="col-lg-3 col-md-12 mt-4 cp-box">
+            <div class="col-lg-3 col-md-12 m-foot cp-box">
               <li>
                 <h4 class="sub-footer mb-3">PT. Cahaya Desain Indonesia</h4>
               </li>

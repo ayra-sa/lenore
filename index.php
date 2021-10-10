@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="assets/Font/Urbanist-Bold.ttf" />
     <link rel="stylesheet" href="assets/Font/Urbanist-ExtraBold.ttf" />
 
+    <!-- masonry -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
@@ -55,7 +58,7 @@
 
 <header
       id="header"
-      class="fixed-top d-flex align-items-center header-transparent">
+      class="fixed-top d-flex align-items-center header-trans">
       <!-- navbar -->
       <?php require_once ('./components/navbar.php'); ?>
       
@@ -206,8 +209,8 @@
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
         <div class="container-fluida">
-          <div class="row">
-            <div class="col-lg-6 align-items-stretch">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 align-items-stretch">
               <img
                 src="assets/Homepage/story of our light.png"
                 class="img-fluid"
@@ -215,17 +218,17 @@
               />
             </div>
 
-            <div class="col-lg-5 d-flex flex-column">
+            <div class="col-lg-6 col-md-6 d-flex flex-column">
               <div class="content">
-                <h3 class="mb-3 fw-bold">THE STORY OF OUR LIGHT</h3>
+                <h3 class="mb-3 title fs-40">The Story Of Our Lights</h3>
                 <p>
                   When we strive to learn every aspect of light with passion. Cahaya Desain Indonesia was established in 2015 with its sole purpose to deliver best Value by adding professionalism to passion.
                 </p>
                 <div class="sub-story mb-4 d-flex">
                   <i class="story-icon"></i>
                   <div class="info-story">
-                    <p class="fw-bold fs-5 mb-2">The Vision Of Our Light :</p>
-                    <p class="text-uppercase">PROVIDE SOCIETY WITH LIGHTS</p>
+                    <p class="fw-bold fs-5 mb-2 title-2">The Vision Of Our Light :</p>
+                    <p class="text-uppercase mb-2">PROVIDE SOCIETY WITH LIGHTS</p>
                     <p>
                       Strive to be the leading company in Architectural Lighting products and provide the best choice of lighting products throughout Indonesia.
                     </p>
@@ -234,14 +237,17 @@
                 <div class="sub-story d-flex">
                   <i class="story-icon"></i>
                   <div class="info-story">
-                    <p class="fw-bold fs-5 mb-2">The Mission Of Our Light :</p>
-                    <p class="text-uppercase">CREATING CUSTOMER ORIENTED RELATIONSHIP.</p>
+                    <p class="fw-bold fs-5 mb-2 title-2">The Mission Of Our Light :</p>
+                    <p class="text-uppercase mb-2">CREATING CUSTOMER ORIENTED RELATIONSHIP.</p>
                     <p>
                       Realizing that satisfied customer is our key to success, customer relationship is our business value.
                     </p>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="hexagon st-hex">
+              <img src="assets/Homepage/story of our light - hexagon.png" alt="" class="imf-fluid">
             </div>
           </div>
         </div>
@@ -264,7 +270,7 @@
                 flex-column
               "
             >
-              <div class="icon mb-2">
+              <div class="icon mb-4">
                 <img
                   src="assets/Homepage/sp-consumer satisfaction.png"
                   class="img-fluid"
@@ -285,7 +291,7 @@
                 flex-column
               "
             >
-              <div class="icon mb-2">
+              <div class="icon mb-4">
                 <img
                   src="assets/Homepage/sp-broad insight.png"
                   class="img-fluid"
@@ -306,7 +312,7 @@
                 flex-column
               "
             >
-              <div class="icon mb-2">
+              <div class="icon mb-4">
                 <img
                   src="assets/Homepage/sp - satisfactory service.png"
                   class="img-fluid"
@@ -336,20 +342,20 @@
         <div class="front container">
           <div class="row info-product">
             <div class="col-4">
-              <h4 class="title">500</h4>
+              <h4 class="fs-40">500</h4>
               <p>Projects</p>
             </div>
             <div class="col-4 center">
-              <h4 class="title">350</h4>
+              <h4 class="fs-40">350</h4>
               <p>Clients</p>
             </div>
             <div class="col-4">
-              <h4 class="title">1000</h4>
+              <h4 class="fs-40">1000</h4>
               <p>Products</p>
             </div>
           </div>
-          <div class="text-center mt-5">
-            <h2 class="title text-light fs-1">Our Products</h3>
+          <div class="text-center">
+            <h2 class="title text-light fs-40">Our Products</h3>
           </div>
           <div class="product-img d-flex">
             <figure class="img-box">
@@ -359,7 +365,7 @@
                 alt="products"
               />
               <figcaption>
-                <p class="fs-2 title text-light text">Interiror</p>
+                <p class="fs-50 title text-light text">Interiror</p>
                 <button class="btn btn-view">
                   <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </button>
@@ -372,7 +378,7 @@
                 alt="products"
               />
               <figcaption>
-                <p class="fs-2 title text-light text">Exterior</p>
+                <p class="fs-50 title text-light text">Exterior</p>
                 <button class="btn btn-view">
                   <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </button>
@@ -385,13 +391,16 @@
                 alt="products"
               />
               <figcaption>
-                <p class="fs-2 title text-light text">Others</p>
+                <p class="fs-50 title text-light text">Others</p>
                 <button class="btn btn-view">
                   <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </button>
               </figcaption>
             </figure>
           </div>
+        </div>
+        <div class="hexagon prod-hex">
+          <img src="assets/Homepage/product - hexagon.png" alt="" class="img-fluid">
         </div>
       </section>
 
@@ -407,18 +416,17 @@
             </div>
             <div class="col-lg-12 d-flex top-projects">
               <div class="col-lg-7 col-md-6 col-sm-6">
-                <h2 class="title">Projects</h2>
+                <h2 class="title fs-40">Projects</h2>
                 <p>We deliver the lighting products come true with the best idea. That's what partnership are for.</p>
               </div>
               <div class="col-lg-5 col-md-6 col-sm-6 text-end m-auto">
                 <button class="btn">
                   <a href="projects-gallery.php" class="btn-view-all">View All Projects</a>
                 </button>
-                <!-- <button class="btn btn-view-all">
-                </button> -->
+                
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 box box-1">
+            <!-- <div class="col-lg-4 col-md-4 col-sm-4 box box-1">
               <img
                 src="assets/Homepage/project-airport.png"
                 class="img-fluid"
@@ -435,9 +443,7 @@
                   class="img-fluid"
                   alt="projects"
                 />
-                <div class="desc">
-                  <h4 class="text-light">ADIDAS Pondok Indah Mall 3</h4>
-                </div>
+                
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6 box box-3">
                 <img
@@ -445,9 +451,7 @@
                   class="img-fluid"
                   alt="projects"
                 />
-                <div class="desc">
-                  <h4 class="text-light">LOREAL Academy Lotte Shopping Avenue Kuningan</h4>
-                </div>
+                
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6 box box-4">
                 <img
@@ -455,8 +459,44 @@
                   class="img-fluid"
                   alt="projects"
                 />
+                
+              </div>
+            </div> -->
+            <div class="gallery-wrapper">
+              <div class="tall box">
+                <img src="assets/Homepage/project-airport.png" alt="" class="img-fluid">
                 <div class="desc">
-                  <h4 class="text-light">KOKORO Living World Alam Sutera</h4>
+                <h4 class="">Plaza Premium Lounge - Bandara Soekarno Hatta Terminal 3</h4>
+              </div>
+              </div>
+              <div class="wide box">
+                <img
+                    src="assets/Homepage/project-adidas.png"
+                    class="img-fluid"
+                    alt="projects"
+                  />
+                  <div class="desc">
+                  <h4 class="">ADIDAS Pondok Indah Mall 3</h4>
+                </div>
+              </div>
+              <div class="box">
+              <img
+                  src="assets/Homepage/project-loreal.png"
+                  class="img-fluid"
+                  alt="projects"
+                />
+                <div class="desc">
+                  <h4 class="">LOREAL Academy Lotte Shopping Avenue Kuningan</h4>
+                </div>
+              </div>
+              <div class="box">
+              <img
+                  src="assets/Homepage/project-kokoro.png"
+                  class="img-fluid"
+                  alt="projects"
+                />
+                <div class="desc">
+                  <h4 class="">KOKORO Living World Alam Sutera</h4>
                 </div>
               </div>
             </div>
@@ -475,8 +515,8 @@
             <div class="anim">
               <img src="assets/Homepage/blog - square.png" alt="anim" class="anim-loop anim-blog">
             </div>
-            <div class="section-title">
-              <h2 class="title">Lenore Blog</h2>
+            <div class="text-center mb-5">
+              <h2 class="title fs-40">Lenore Blog</h2>
             </div>
             <div class="col-lg-4 col-md-4 mb-4">
               <div class="card">
@@ -493,7 +533,7 @@
                   <p class="card-text mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
-                  <a href="blog-list.php" class="read">Read</a>
+                  <a href="blog-list.php" class="read">Read More</a>
                 </div>
               </div>
             </div>
@@ -512,7 +552,7 @@
                   <p class="card-text mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
-                  <a href="blog-list.php" class="read">Read</a>
+                  <a href="blog-list.php" class="read">Read More</a>
                 </div>
               </div>
             </div>
@@ -531,12 +571,12 @@
                   <p class="card-text mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
-                  <a href="blog-list.php" class="read">Read</a>
+                  <a href="blog-list.php" class="read">Read More</a>
                 </div>
               </div>
             </div>
             <div class="col-lg text-center mt-3">
-              <a href="blog-list.php" class="btn btn-view-all">Read More</a>
+              <a href="blog-list.php" class="btn btn-view-all">Read More Blog</a>
             </div>
           </div>
         </div>
@@ -560,7 +600,7 @@
             </div>
 
             <div class="col-lg-5 col-md-5 contact-form">
-              <h2 class="title mb-3">Contact Us</h2>
+              <h2 class="title mb-3 fs-40">Contact Us</h2>
               <form>
                 <div class="form-group">
                   <input

@@ -52,6 +52,9 @@
   .navbar ul {
     display: none;
   } */
+  #header.header-trans {
+    background-color: transparent;
+  }
   #hero .carousel-container {
     left: 12%;
   }
