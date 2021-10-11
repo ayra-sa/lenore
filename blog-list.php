@@ -53,12 +53,21 @@
 <!-- End Header -->
 
   <main>
-      <!-- BANNER -->
-      <section class="banner">
-        <div class="container">
-          <h4 class="title text-light">All <br />Products</h4>
+     <!-- BANNER -->
+    <div class="banner">
+        <div class="img">
+            <img src="assets/Blog/Banner.png" alt="banner" class="img-fluid">
         </div>
-      </section>
+        <div class="cover-banner">
+          <div class="container">
+            <h1 class="text-light fs-40">Lenore <br>Blog</h1>
+          </div>
+            <!-- <img src="assets/Homepage/blog -" class="mask-top"> -->
+            <div class="banner-hex">
+              <img src="assets/Homepage/story of our light - hexagon.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
 
       <section class="blog">
         <div class="container">
@@ -103,7 +112,7 @@
                     <p class="date">20 September 2021</p>
                   </div>
                   <a href="blog-detail.php" class="blog-link">
-                    <p class="card-text mb-3">
+                    <p class="title mb-3">
                       Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                     </p>
                   </a>
@@ -114,7 +123,7 @@
             <div class="col-lg-4 col-md-4 mb-4 blog-item filter-news">
               <div class="card">
                 <img
-                  src="assets/Homepage/blog 1.png"
+                  src="assets/Homepage/blog 2.png"
                   class="img-fluid"
                   alt="blog"
                 />
@@ -124,7 +133,7 @@
                     <p class="date">20 September 2021</p>
                   </div>
                   <a href="blog-detail.php" class="blog-link">
-                    <p class="card-text mb-3">
+                    <p class="title mb-3">
                       Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                     </p>
                   </a>
@@ -135,7 +144,7 @@
             <div class="col-lg-4 col-md-4 mb-4 blog-item filter-events">
               <div class="card">
                 <img
-                  src="assets/Homepage/blog 1.png"
+                  src="assets/Homepage/blog 3.png"
                   class="img-fluid"
                   alt="blog"
                 />
@@ -145,7 +154,7 @@
                     <p class="date">20 September 2021</p>
                   </div>
                   <a href="blog-detail.php" class="blog-link">
-                    <p class="card-text mb-3">
+                    <p class="title mb-3">
                       Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                     </p>
                   </a>

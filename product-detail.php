@@ -53,7 +53,7 @@
 </header>
 <!-- End Header -->
     <main>
-      <section class="products">
+      <section class="products-detail">
         <div class="container">
           <nav aria-label="breadcrumb mb-3">
             <ol class="breadcrumb">
@@ -72,7 +72,7 @@
 
           <div class="row justify-content-center mt-5">
             <div class="col-lg-5 col-md-5 text-center">
-              <img src="assets/Homepage/blog 1.png" alt="" class="img-fluid" />
+              <img src="assets/Product Detail/product.png" alt="" class="img-fluid" />
             </div>
             <div class="col-lg-7 col-md-7">
               <table class="table">
@@ -121,7 +121,10 @@
                   </tr>
                   <tr>
                     <td>Sertifikasi</td>
-                    <td>lorem</td>
+                    <td>
+                      <img src="assets/Product Detail/sertifikasi 1.png" alt="" class="img-fluid">
+                      <img src="assets/Product Detail/sertifikasi 2.png" alt="" class="img-fluid">
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -160,14 +163,16 @@
               </div>
             </div>
           </div>
-          <div class="row btm mt-5">
-            <h2 class="related-title mb-4">You Might Also Like</h2>
+          <div class="row btm">
+            <h2 class="related-title fs-40 mb-5">You Might Also Like</h2>
             <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
-                <img
-                  class="card-img-top"
-                  src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                />
+                <div class="prod-image">
+                  <img
+                      class="img-fluid"
+                      src="assets/Product List/product 1.png"
+                    />
+                </div>
                 <div class="card-body">
                   <p class="text-muted text-uppercase">interrior</p>
                   <h5 class="text-uppercase title">lnsd-asdr2</h5>
@@ -176,10 +181,12 @@
             </a>
             <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
-                <img
-                  class="card-img-top"
-                  src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                />
+                <div class="prod-image">
+                  <img
+                      class="img-fluid"
+                      src="assets/Product List/product 2.png"
+                    />
+                </div>
                 <div class="card-body">
                   <p class="text-muted text-uppercase">interrior</p>
                   <h5 class="text-uppercase title">lnsd-asdr2</h5>
@@ -188,10 +195,12 @@
             </a>
             <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
-                <img
-                  class="card-img-top"
-                  src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                />
+                <div class="prod-image">
+                  <img
+                      class="img-fluid"
+                      src="assets/Product List/product 3.png"
+                    />
+                </div>
                 <div class="card-body">
                   <p class="text-muted text-uppercase">interrior</p>
                   <h5 class="text-uppercase title">lnsd-asdr2</h5>
@@ -200,10 +209,12 @@
             </a>
             <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
-                <img
-                  class="card-img-top"
-                  src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                />
+                <div class="prod-image">
+                  <img
+                      class="img-fluid"
+                      src="assets/Product List/product 1.png"
+                    />
+                </div>
                 <div class="card-body">
                   <p class="text-muted text-uppercase">interrior</p>
                   <h5 class="text-uppercase title">lnsd-asdr2</h5>

@@ -29,9 +29,9 @@
         <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
           
           <!-- Navbar dropdown -->
-          <li class="nav-item dropdown dropdown-hover position-static">
+          <li class="nav-item dropdown position-static">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-              data-mdb-toggle="dropdown" aria-expanded="false">
+              data-bs-toggle="dropdown" aria-expanded="false">
               Product
             </a>
             <!-- Dropdown menu -->
@@ -68,16 +68,16 @@
               </div>
             </div>
           </li>
-          <li>
+          <li class="nav-item">
             <a class="nav-link scrollto" href="#abouta">Switches & System</a>
           </li>
-          <li><a class="nav-link scrollto" href="#gallery">Projects</a></li>
-          <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
-          <li>
+          <li class="nav-item"><a class="nav-link scrollto" href="projects-gallery.php">Projects</a></li>
+          <li class="nav-item"><a class="nav-link scrollto" href="blog-list.php">Blog</a></li>
+          <li class="nav-item">
             <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#getCatalogue" href="">Get Catalogue</a>
           </li>
-          <li><a class="nav-link scrollto" href="#chefs">About</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link scrollto" href="#chefs">About</a></li>
+          <li class="nav-item"><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
           <li>
             <div class="form d-flex align-items-center">
               <i class="fa fa-search"></i>

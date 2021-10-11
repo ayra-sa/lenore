@@ -3,14 +3,13 @@
   z-index: 234;
   background-color: #fff;
 }
+.products-detail {
+  margin-top: 4.5rem;
+}
 /* .banner {
   background: url("../Product\ List/Banner.png") no-repeat;
 } */
-.banner-hex {
-  position: absolute;
-  right: -5%;
-  bottom: -50%;
-}
+
 .left .icon-control {
   margin-top: 5px;
   float: right;
@@ -125,6 +124,10 @@ tr .title-prod {
 
 .table > :not(caption) > * > * {
   padding-left: 0;
+}
+
+.products-detail .btm {
+  margin: 4.5rem 0;
 }
 
 .related-title {

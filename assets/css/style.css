@@ -211,20 +211,22 @@ h6 {
 .navbar li:hover > a {
   color: var(--oren);
 }
-.dropdown-hover:hover > .dropdown-menu {
+/* .dropdown-hover:hover > .dropdown-menu {
   display: inline-block;
-}
+} */
 
 .dropdown-hover > .dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .dropdown-menu {
   width: 70%;
-  margin-top: 1.3rem;
   background: rgba(26, 24, 22, 0.85);
   border-radius: 5pt;
+}
+.dropdown-menu[data-bs-popper] {
+  margin-top: 1.35rem;
 }
 
 .dropdown-menu p {
@@ -559,6 +561,11 @@ h6 {
   text-align: left;
   position: relative;
 }
+.banner-hex {
+  position: absolute;
+  right: -5%;
+  bottom: -50%;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -888,6 +895,7 @@ h6 {
 }
 .gallery .wide .desc {
   left: 0;
+  width: 100%;
 }
 .gallery-wrapper .tall {
   grid-row: span 2;
@@ -913,8 +921,8 @@ h6 {
   height: 100%;
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0.25) 50%,
+    rgba(0, 0, 0, 0.8) 35%,
+    rgba(0, 0, 0, 0.5) 50%,
     transparent 100%
   );
   z-index: 1;
@@ -922,6 +930,8 @@ h6 {
   transition: opacity 550ms ease;
 }
 .gallery .desc h4 {
+  position: relative;
+  z-index: 898;
   font-weight: 800;
   font-size: 1.75em;
   padding: 1rem;
@@ -935,9 +945,8 @@ h6 {
 
 /* Blog */
 .blog {
-  margin: 2rem 0;
+  padding: 1rem 0;
   position: relative;
-  padding: 5rem 0;
 }
 
 .blog-dots {
@@ -952,16 +961,18 @@ h6 {
 .blog .tag {
   border: 1px solid var(--oren);
   padding: 0.25rem 0.5rem;
-  border-radius: 3px;
   margin-right: 0.85rem;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 .blog .date {
-  font-size: 14pt;
+  font-size: 12pt;
   color: var(--dark-grey);
 }
-
+.blog .card-title {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
 .blog .card-body {
   padding: 1rem 0;
 }
@@ -970,9 +981,6 @@ h6 {
 }
 .blog .card-body a:hover {
   color: var(--oren);
-}
-.blog .card-text {
-  font-weight: 600;
 }
 
 .anim {
@@ -997,6 +1005,11 @@ h6 {
   to {
     transform: rotate(359deg);
   }
+}
+
+/* paginate */
+.pagination {
+  padding-bottom: 4rem;
 }
 
 /*--------------------------------------------------------------
