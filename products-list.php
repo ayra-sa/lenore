@@ -54,14 +54,25 @@
 <!-- End Header -->
 
     <main>
-      <section class="banner">
-        <div class="container">
-          <h4 class="title">All <br />Products</h4>
+      <!-- BANNER -->
+    <div class="banner">
+        <div class="img">
+            <img src="assets/Product List/Banner.png" alt="banner" class="img-fluid">
         </div>
-      </section>
+        <div class="cover-banner">
+          <div class="container">
+            <h1 class="text-light fs-40">All <br>Products</h1>
+          </div>
+            <!-- <img src="assets/Homepage/blog -" class="mask-top"> -->
+            <div class="banner-hex">
+              <img src="assets/Homepage/story of our light - hexagon.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
       <section class="products">
         <div class="container">
-          <nav aria-label="breadcrumb mb-3">
+          <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.php">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">
@@ -85,7 +96,7 @@
                     class="
                       btn btn-link
                       bg-transparent
-                      text-decoration-none text-dark
+                      text-decoration-none
                     "
                   >
                     <i class="fa fa-times"></i>
@@ -146,7 +157,7 @@
                         aria-expanded="false"
                         aria-controls="exterrior"
                       >
-                        Interrior
+                        Exterrior
                       </button>
                     </h2>
                     <div
@@ -185,7 +196,7 @@
                         aria-expanded="false"
                         aria-controls="others"
                       >
-                        Interrior
+                        Others
                       </button>
                     </h2>
                     <div
@@ -232,10 +243,12 @@
                     <div
                       class="card d-flex justify-content-between text-center"
                     >
+                    <div class="prod-image">
                       <img
-                        class="card-img-top"
-                        src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        class="img-fluid"
+                        src="assets/Product List/product 1.png"
                       />
+                    </div>
                       <div class="card-body">
                         <p class="text-muted text-uppercase">interrior</p>
                         <h5 class="text-uppercase title">lnsd-asdr2</h5>
@@ -253,10 +266,12 @@
                     <div
                       class="card d-flex justify-content-between text-center"
                     >
+                    <div class="prod-image">
                       <img
-                        class="card-img-top"
-                        src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        class="img-fluid"
+                        src="assets/Product List/product 2.png"
                       />
+                    </div>
                       <div class="card-body">
                         <p class="text-muted text-uppercase">interrior</p>
                         <h5 class="text-uppercase title">lnsd-asdr2</h5>
@@ -274,10 +289,12 @@
                     <div
                       class="card d-flex justify-content-between text-center"
                     >
+                    <div class="prod-image">
                       <img
-                        class="card-img-top"
-                        src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        class="img-fluid"
+                        src="assets/Product List/product 3.png"
                       />
+                    </div>
                       <div class="card-body">
                         <p class="text-muted text-uppercase">interrior</p>
                         <h5 class="text-uppercase title">lnsd-asdr2</h5>

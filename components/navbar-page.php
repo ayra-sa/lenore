@@ -8,7 +8,7 @@
 >
   <div class="logo me-auto">
     <h1>
-      <a href="index.html"
+      <a href="./index.php"
         ><img src="assets/Homepage/LOGO LENORE-01.png" alt="logo"
       /></a>
     </h1>
@@ -35,9 +35,7 @@
               Product
             </a>
             <!-- Dropdown menu -->
-            <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
-                    border-top-right-radius: 0;
-                  ">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
   
               <div class="container">
                 <div class="row my-4">
@@ -62,7 +60,7 @@
                   </div>
                   <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
                     <div class="list-group list-group-flush">
-                      <p>ACC & Sparepart</p>
+                      <p>Others</p>
                     </div>
                   </div>
                   

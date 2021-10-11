@@ -57,7 +57,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <h4 class="title">Projects Gallery</h4>
+              <h4 class="title fs-40">Projects Gallery</h4>
             </div>
           </div>
           <div

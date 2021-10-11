@@ -426,42 +426,7 @@
                 
               </div>
             </div>
-            <!-- <div class="col-lg-4 col-md-4 col-sm-4 box box-1">
-              <img
-                src="assets/Homepage/project-airport.png"
-                class="img-fluid"
-                alt="projects"
-              />
-              <div class="desc">
-                <h4 class="text-light">Plaza Premium Lounge - Bandara Soekarno Hatta Terminal 3</h4>
-              </div>
-            </div>
-            <div class="right-proj col-lg-8 col-md-8 col-sm-8 d-flex flex-wrap align-content-end">
-              <div class="col-lg-12 col-md-12 col-sm-12 box box-2">
-                <img
-                  src="assets/Homepage/project-adidas.png"
-                  class="img-fluid"
-                  alt="projects"
-                />
-                
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 box box-3">
-                <img
-                  src="assets/Homepage/project-loreal.png"
-                  class="img-fluid"
-                  alt="projects"
-                />
-                
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 box box-4">
-                <img
-                  src="assets/Homepage/project-kokoro.png"
-                  class="img-fluid"
-                  alt="projects"
-                />
-                
-              </div>
-            </div> -->
+            
             <div class="gallery-wrapper">
               <div class="tall box">
                 <img src="assets/Homepage/project-airport.png" alt="" class="img-fluid">

@@ -1,16 +1,22 @@
 .projects-gallery {
-  padding: 5rem 0;
+  padding: 7rem 0;
   position: relative;
 }
+.projects-gallery .carousel-inner .gallery-wrapper {
+  gap: 0.35rem;
+}
 .projects-gallery .box {
-  padding: 10px;
+  padding: 2%;
+}
+.carousel {
+  margin-top: 2rem;
 }
 .carousel,
 .carousel-inner {
   position: unset;
 }
 .carousel-control-next {
-  right: 2.5%;
+  right: 4%;
 }
 .carousel-control-next,
 .carousel-control-prev {
