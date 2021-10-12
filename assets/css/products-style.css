@@ -1,5 +1,5 @@
 .products {
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   z-index: 234;
   background-color: #fff;
 }
@@ -70,10 +70,13 @@
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   background: unset;
+  width: unset;
+  height: unset;
 }
 .accordion-button:not(.collapsed)::after {
-  content: "\f0d8";
+  content: "\f0d7";
   color: var(--oren);
+  background: unset;
 }
 
 .prod-item .card-body p {

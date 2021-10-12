@@ -8,11 +8,21 @@
 .video-thumb .play-btn {
   width: 80px;
   height: 80px;
+  text-align: center;
   background-color: white;
   position: absolute;
-  left: 43%;
+  left: 45%;
   top: 40%;
   border-radius: 50px;
+}
+.video-thumb .play-btn i {
+  color: var(--oren);
+  font-size: 30pt;
+  line-height: 60pt;
+  padding-left: 10px;
+}
+.video-thumb .play-btn:hover i {
+  color: #ceab38;
 }
 .ss-list {
   margin: 7rem 0;
@@ -22,4 +32,80 @@
 }
 .ss-item .card-body {
   padding: 2rem 1rem;
+}
+
+.card {
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  /* box-shadow: 0 4px 15px rgba(#000, 0.3); */
+  box-shadow: 0px 2px 3px 1px #c7c7c7;
+  transform: scale(1.025);
+  /* z-index: 11; */
+}
+.gallery {
+  display: flex;
+  margin: 10px;
+  max-width: 600px;
+  position: relative;
+  padding-top: 66.6666666667%;
+}
+@media screen and (min-width: 600px) {
+  .gallery {
+    padding-top: 400px;
+  }
+}
+.gallery__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.gallery__thumb {
+  width: 50px;
+  padding-top: 6px;
+  margin: 6px;
+  display: block;
+}
+.gallery__selector {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.gallery__selector:checked + .gallery__img {
+  opacity: 1;
+}
+.gallery__selector:checked ~ .gallery__thumb > img {
+  box-shadow: 0 0 0 3px var(--oren);
+}
+
+/* detail */
+.switchSystem-detail {
+  margin-top: 4rem;
+}
+.table {
+  width: 70%;
+  color: var(--primary-body);
+}
+.table > :not(caption) > * > * {
+  padding-left: 0;
+}
+.table .no-border {
+  border-bottom: unset;
+}
+.table li {
+  list-style: "- ";
+}
+.table .no-list li {
+  list-style: none;
+}
+.table h5 {
+  font-size: 1em;
+  font-weight: 700;
+}
+.btm {
+  margin: 11rem 0;
 }

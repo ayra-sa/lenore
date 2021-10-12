@@ -72,6 +72,10 @@ h6 {
   color: #000;
 }
 
+.text-light {
+  color: #fff !important;
+}
+
 .fs-40 {
   font-size: var(--title);
 }
@@ -211,6 +215,12 @@ h6 {
 .nav-link:hover,
 .navbar li:hover > a {
   color: var(--oren);
+}
+.dropdown-toggle::after {
+  transition: 0.3s ease;
+}
+.dropdown-toggle.show::after {
+  transform: rotate(-180deg);
 }
 /* .dropdown-hover:hover > .dropdown-menu {
   display: inline-block;
@@ -566,7 +576,7 @@ h6 {
 .banner-hex {
   position: absolute;
   right: -5%;
-  bottom: -50%;
+  bottom: -55%;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1068,7 +1078,7 @@ h6 {
 .contact form {
   color: var(--grey);
 }
-.contact .form-group .col-5 {
+.contact form .col-5 {
   width: 45%;
 }
 .contact .form-control::placeholder {

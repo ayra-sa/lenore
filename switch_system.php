@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <title>Switches & System</title>
 
     <link href="assets/Homepage/LOGO LENORE-01.png" rel="icon" />
 
@@ -60,7 +60,7 @@
         </div>
         <div class="cover-banner">
           <div class="container">
-            <h1 class="text-light fs-40">Switch <br>& System</h1>
+            <h1 class="text-light fs-40">Switches <br>& System</h1>
           </div>
             <!-- <img src="assets/Homepage/blog -" class="mask-top"> -->
             <div class="banner-hex">
@@ -78,24 +78,79 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.php">Home</a></li>
               <li class="breadcrumb-item">
-                <a href="products-list.php">Switch & System</a>
+                <a href="products-list.php">Switches & System</a>
               </li>
               
             </ol>
           </nav>
 
           <!-- content -->
-          <div class="row ss-thumbnail align-items-center">
+          <div class="gallery ss-thumbnail">
+            <!-- <div class="row tab-pane fade show active">
               <div class="col-lg-7">
-                  <div class="video-thumb">
+                  <div class="video-thumb" aria-labelledby="thumb-1-tab" id="thumb-1">
                       <img src="assets/switch and system List/video thumbnail 1.png" alt="" class="img-fluid">
-                      <a href="#" class="play-btn"></a>
+                      <a href="#" class="play-btn">
+                        <i class="fas fa-play"></i>
+                      </a>
                   </div>
               </div>
               <div class="col-lg-5">
                   <h4 class="title fs-40 mb-2">Smart Living Ecosystem</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vitae aut nesciunt.</p>
               </div>
+            </div> -->
+            
+            <div class="gallery__item">
+              <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+              <div class="gallery__img d-flex align-items-center gap-3">
+                <div class="col-lg-12 video-thumb">
+                  <img class="img-fluid" src="assets/switch and system List/video thumbnail 1.png" alt=""/>
+                  <a href="#" class="play-btn">
+                    <i class="fas fa-play"></i>
+                  </a>
+                </div>
+                <div class="col-lg-10 texted">
+                  <h4 class="title fs-40 mb-2">Smart Living Ecosystem</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vitae aut nesciunt.</p>
+                </div>
+              </div>
+              <label for="img-1" class="gallery__thumb"><img src="assets/switch and system List/video thumbnail 1.png" class="img-fluid" alt=""/></label>
+            </div>
+            <div class="gallery__item">
+              <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+              <div class="gallery__img d-flex align-items-center gap-3">
+                <div class="col-lg-12 video-thumb">
+                  <img class="img-fluid" src="assets/switch and system List/video thumbnail 2.png" alt=""/>
+                  <a href="#" class="play-btn">
+                    <i class="fas fa-play"></i>
+                  </a>
+                </div>
+                <div class="col-lg-10 texted">
+                  <h4 class="title fs-40 mb-2">Smart Living Ecosystem</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vitae aut nesciunt.</p>
+                </div>
+              </div>
+              <label for="img-2" class="gallery__thumb"><img src="assets/switch and system List/video thumbnail 2.png" class="img-fluid" alt=""/></label>
+            </div>
+            <div class="gallery__item">
+              <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+              <div class="gallery__img d-flex align-items-center gap-3">
+                <div class="col-lg-12 video-thumb">
+                  <img class="img-fluid" src="assets/switch and system List/video thumbnail 3.png" alt=""/>
+                  <a href="#" class="play-btn">
+                    <i class="fas fa-play"></i>
+                  </a>
+                </div>
+                <div class="col-lg-10 texted">
+                  <h4 class="title fs-40 mb-2">Smart Living Ecosystem</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vitae aut nesciunt.</p>
+                </div>
+              </div>
+              <label for="img-3" class="gallery__thumb"><img src="assets/switch and system List/video thumbnail 3.png" class="img-fluid" alt=""/></label>
+            </div>
+            
+              
           </div>
 
           <div class="row ss-list">

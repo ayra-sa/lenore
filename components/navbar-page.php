@@ -29,9 +29,9 @@
         <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
           
           <!-- Navbar dropdown -->
-          <li class="nav-item dropdown dropdown-hover position-static">
+          <li class="nav-item dropdown position-static">
             <a class="nav-link dropdown-toggle" href="./index.php#product" id="navbarDropdown" role="button"
-              data-mdb-toggle="dropdown" aria-expanded="false">
+              data-bs-toggle="dropdown" aria-expanded="false">
               Product
             </a>
             <!-- Dropdown menu -->
@@ -39,7 +39,7 @@
   
               <div class="container">
                 <div class="row my-4">
-                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                     <div class="list-group list-group-flush">
                       <p>Interior</p>
                       <a href="" class="list-group-item list-group-item-action">Spot</a>
@@ -49,7 +49,7 @@
                       <a href="" class="list-group-item list-group-item-action">Magnetic</a>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                     <div class="list-group list-group-flush">
                       <p>Exterior</p>
                       <a href="" class="list-group-item list-group-item-action">Facade</a>
@@ -58,7 +58,7 @@
                       <a href="" class="list-group-item list-group-item-action">Wall</a>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                  <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
                     <div class="list-group list-group-flush">
                       <p>Others</p>
                     </div>

@@ -355,7 +355,7 @@
             </div>
           </div>
           <div class="text-center product-text">
-            <h2 class="title fs-40">Our Products</h3>
+            <h2 class="title fs-40 text-light">Our Products</h3>
           </div>
           <div class="product-img d-flex">
             <figure class="img-box">
