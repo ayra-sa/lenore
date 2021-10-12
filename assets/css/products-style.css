@@ -65,6 +65,16 @@
 .accordion-button {
   padding: 1rem 0;
 }
+.accordion-button::after {
+  content: "\f0d7";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  background: unset;
+}
+.accordion-button:not(.collapsed)::after {
+  content: "\f0d8";
+  color: var(--oren);
+}
 
 .prod-item .card-body p {
   font-size: 0.8em;
@@ -83,20 +93,6 @@
 
 .filter-top .btn:focus {
   box-shadow: unset;
-}
-.pagination .page-link {
-  border: none;
-  color: var(--primary);
-}
-.page-item.active .page-link {
-  z-index: 1;
-  width: 30px;
-  text-align: center;
-  font-weight: 700;
-  color: var(--primary);
-  background-color: var(--oren);
-  border-radius: 50%;
-  border-color: transparent;
 }
 .page-item {
   padding: 0 0.75rem;
@@ -127,7 +123,10 @@ tr .title-prod {
 }
 
 .products-detail .btm {
-  margin: 4.5rem 0;
+  margin: 9rem 0;
+}
+.products-detail .prod-item {
+  margin-top: 2rem;
 }
 
 .related-title {

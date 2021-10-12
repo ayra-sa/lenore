@@ -277,7 +277,7 @@
                   alt=""
                 />
               </div>
-              <h4 class="title">Customer Satisfaction</h4>
+              <h4 class="title mb-3">Customer Satisfaction</h4>
               <p>
                 We concern to the wants, needs and expectations of customers. Therefore, as a relationship business, we have to provide satisfactory service and even exceed their expectations
               </p>
@@ -298,7 +298,7 @@
                   alt=""
                 />
               </div>
-              <h4 class="title">Broad Insight</h4>
+              <h4 class="title mb-3">Broad Insight</h4>
               <p>
                 We hope, to educate our consumers with a broad insight about lightning
               </p>
@@ -319,7 +319,7 @@
                   alt=""
                 />
               </div>
-              <h4 class="title">Satisfactory Service</h4>
+              <h4 class="title mb-3">Satisfactory Service</h4>
               <p>
                 We have a team to provide the best and satisfactory service, as well as establish long-term and profitable relationship
               </p>
@@ -342,20 +342,20 @@
         <div class="front container">
           <div class="row info-product">
             <div class="col-4">
-              <h4 class="fs-40">500</h4>
+              <h4 class="fs-40 title">500</h4>
               <p>Projects</p>
             </div>
             <div class="col-4 center">
-              <h4 class="fs-40">350</h4>
+              <h4 class="fs-40 title">350</h4>
               <p>Clients</p>
             </div>
             <div class="col-4">
-              <h4 class="fs-40">1000</h4>
+              <h4 class="fs-40 title">1000</h4>
               <p>Products</p>
             </div>
           </div>
-          <div class="text-center">
-            <h2 class="title text-light fs-40">Our Products</h3>
+          <div class="text-center product-text">
+            <h2 class="title fs-40">Our Products</h3>
           </div>
           <div class="product-img d-flex">
             <figure class="img-box">
@@ -416,7 +416,7 @@
             </div>
             <div class="col-lg-12 d-flex top-projects">
               <div class="col-lg-7 col-md-6 col-sm-6">
-                <h2 class="title fs-40">Projects</h2>
+                <h2 class="title fs-40 mb-4">Projects</h2>
                 <p>We deliver the lighting products come true with the best idea. That's what partnership are for.</p>
               </div>
               <div class="col-lg-5 col-md-6 col-sm-6 text-end m-auto">
@@ -427,7 +427,7 @@
               </div>
             </div>
             
-            <div class="gallery-wrapper">
+            <div class="gallery-wrapper mt-5">
               <div class="tall box">
                 <img src="assets/Homepage/project-airport.png" alt="" class="img-fluid">
                 <div class="desc">
@@ -495,7 +495,7 @@
                     <p class="tag">Blog</p>
                     <p class="date">20 September 2021</p>
                   </div>
-                  <p class="card-text mb-3">
+                  <p class="card-text title mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
                   <a href="blog-list.php" class="read">Read More</a>
@@ -514,7 +514,7 @@
                     <p class="tag">News</p>
                     <p class="date">20 September 2021</p>
                   </div>
-                  <p class="card-text mb-3">
+                  <p class="card-text title mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
                   <a href="blog-list.php" class="read">Read More</a>
@@ -533,7 +533,7 @@
                     <p class="tag">Events</p>
                     <p class="date text-muted">20 September 2021</p>
                   </div>
-                  <p class="card-text mb-3">
+                  <p class="card-text title mb-3">
                     Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                   </p>
                   <a href="blog-list.php" class="read">Read More</a>
@@ -553,7 +553,7 @@
         <div class="dots contact-dots">
           <img src="assets/Homepage/contact us - dots.png" class="img-fluid" alt="">
         </div>
-        <div class="container-fluida">
+        <div class="container-cont">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 align-items-stretch img-contact">
               <img
@@ -604,7 +604,7 @@
                     required
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-view-all float-end">
+                <button type="submit" class="btn btn-view-all mt-4 float-end">
                   Submit
                 </button>
               </form>

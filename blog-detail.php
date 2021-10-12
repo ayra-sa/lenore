@@ -55,7 +55,7 @@
 <!-- End Header -->
 
     <main>
-      <section class="blog">
+      <section class="blog p-detail">
         <div class="container">
           <nav aria-label="breadcrumb mb-3">
             <ol class="breadcrumb">
@@ -75,20 +75,20 @@
                 <p class="tag">Blog</p>
                 <p class="date">20 September 2021</p>
               </div>
-              <h2 class="title">
+              <h2 class="title mb-3">
                 Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
               </h2>
               <div class="detail">
                 <div class="socmed d-flex flex-column gap-2">
-                  <img src="assets/Homepage/socmed - FB.png" alt="" />
-                  <img src="assets/Homepage/socmed - IG.png" alt="" />
-                  <img src="assets/Homepage/socmed - FB.png" alt="" />
-                  <img src="assets/Homepage/socmed - youtube.png" alt="" />
+                  <img src="assets/Blog Detail/whatsapp.png" alt="" />
+                  <img src="assets/Blog Detail/FB.png" alt="" />
+                  <img src="assets/Blog Detail/twitter.png" alt="" />
+                  <img src="assets/Blog Detail/gmail.png" alt="" />
                 </div>
                 <img
                   src="assets/Homepage/blog 1.png"
                   alt=""
-                  class="mb-2 img-top"
+                  class="mb-3 img-top"
                 />
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -105,9 +105,9 @@
                 <div class="col-lg-12 col-md-12 d-flex gap-2">
                   <div class="col-lg-6 col-md-6">
                     <img
-                      src="assets/Homepage/blog 1.png"
+                      src="assets/Blog Detail/image 1.png"
                       alt=""
-                      class="img-fluid"
+                      class="mb-3 img-fluid"
                     />
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -117,9 +117,9 @@
                   </div>
                   <div class="col-lg-6 col-md-6">
                     <img
-                      src="assets/Homepage/blog 1.png"
+                      src="assets/Blog Detail/image 2.png"
                       alt=""
-                      class="img-fluid"
+                      class="mb-3 img-fluid"
                     />
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -137,8 +137,8 @@
               </div>
             </div>
             <!-- related blogs -->
-            <div class="col-lg-12 mt-5">
-              <h2 class="related-title mb-4">You Might Also Like</h2>
+            <div class="col-lg-12">
+              <h2 class="title mb-5">You Might Also Like</h2>
             </div>
             <div class="col-lg-4 col-md-4 mb-3">
               <div class="card">
@@ -153,7 +153,7 @@
                     <p class="date">20 September 2021</p>
                   </div>
                   <a href="blog-detail.php" class="blog-link">
-                    <p class="card-text mb-3">
+                    <p class="title mb-3">
                       Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                     </p>
                   </a>
@@ -164,7 +164,7 @@
             <div class="col-lg-4 col-md-4 mb-3">
               <div class="card">
                 <img
-                  src="assets/Homepage/blog 1.png"
+                  src="assets/Homepage/blog 2.png"
                   class="img-fluid"
                   alt="blog"
                 />
@@ -174,7 +174,7 @@
                     <p class="date">20 September 2021</p>
                   </div>
                   <a href="blog-detail.php" class="blog-link">
-                    <p class="card-text mb-3">
+                    <p class="title mb-3">
                       Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                     </p>
                   </a>
@@ -185,7 +185,7 @@
             <div class="col-lg-4 col-md-4 mb-3">
               <div class="card">
                 <img
-                  src="assets/Homepage/blog 1.png"
+                  src="assets/Homepage/blog 3.png"
                   class="img-fluid"
                   alt="blog"
                 />
@@ -195,7 +195,7 @@
                     <p class="date">20 September 2021</p>
                   </div>
                   <a href="blog-detail.php" class="blog-link">
-                    <p class="card-text mb-3">
+                    <p class="title mb-3">
                       Memilih Lampu yang Tepat Berdasarkan Fungsi Ruangan
                     </p>
                   </a>

@@ -32,6 +32,7 @@
 .blogs {
   position: relative;
 }
+
 .circle1 {
   position: absolute;
   left: -10%;
@@ -69,30 +70,18 @@
 .blog .card-body {
   padding: 0.35rem 0;
 }
-.pagination {
-  padding-bottom: 4rem;
-}
-.pagination .page-link {
-  border: none;
-  color: var(--primary);
-}
-.page-item.active .page-link {
-  z-index: 1;
-  width: 30px;
-  text-align: center;
-  font-weight: 700;
-  color: var(--primary);
-  background-color: var(--oren);
-  border-radius: 50%;
-  border-color: transparent;
-}
+
 .page-item {
   padding: 0 0.75rem;
 }
 
 /* detail */
+.p-detail {
+  padding: 4.5rem 0 8rem 0;
+}
 .detail {
   position: relative;
+  margin-bottom: 5rem;
 }
 .detail .img-top {
   width: 100%;

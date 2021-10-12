@@ -164,7 +164,7 @@
             </div>
           </div>
           <div class="row btm">
-            <h2 class="related-title fs-40 mb-5">You Might Also Like</h2>
+            <h2 class="title fs-40 mb-5">You Might Also Like</h2>
             <a href="product-detail.php" class="col-lg-3 col-md-6 prod-item">
               <div class="card d-flex justify-content-between text-center">
                 <div class="prod-image">

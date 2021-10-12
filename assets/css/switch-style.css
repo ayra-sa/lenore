@@ -1,0 +1,25 @@
+.switchSystem {
+  z-index: 11;
+  background-color: #fff;
+}
+.video-thumb {
+  position: relative;
+}
+.video-thumb .play-btn {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  left: 43%;
+  top: 40%;
+  border-radius: 50px;
+}
+.ss-list {
+  margin: 7rem 0;
+}
+.ss-list h4 {
+  margin-bottom: 5rem;
+}
+.ss-item .card-body {
+  padding: 2rem 1rem;
+}

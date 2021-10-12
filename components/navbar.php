@@ -30,7 +30,7 @@
           
           <!-- Navbar dropdown -->
           <li class="nav-item dropdown position-static">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle" href="#product" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Product
             </a>

@@ -69,7 +69,7 @@
         </div>
     </div>
 
-      <section class="blog">
+      <section class="blog blog-pg">
         <div class="container">
           <nav aria-label="breadcrumb mb-3">
             <ol class="breadcrumb">
