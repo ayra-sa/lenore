@@ -426,7 +426,7 @@ h6 {
 }
 
 #hero .carousel-content {
-  width: 50%;
+  width: 70%;
 }
 
 #hero h2 {
@@ -873,22 +873,6 @@ h6 {
   position: relative;
 }
 
-.gallery .box-1,
-.gallery .box .img-fluid {
-  height: 100%;
-}
-
-.gallery .box-2,
-.gallery .box-3 {
-  height: 50%;
-}
-
-.gallery .box-2 {
-  border-bottom: 10px solid #fff;
-}
-.gallery .box-3 {
-  border-right: 10px solid #fff;
-}
 .gallery-wrapper > div {
   display: flex;
   justify-content: center;
@@ -907,6 +891,7 @@ h6 {
   grid-auto-rows: 250px;
   grid-auto-flow: dense;
 }
+
 .gallery-wrapper .wide {
   grid-column: span 2;
 }
@@ -917,9 +902,10 @@ h6 {
 .gallery-wrapper .tall {
   grid-row: span 2;
 }
-.gallery-wrapper img:hover .desc h4 {
+.gallery-wrapper .box:hover h4 {
   color: var(--oren);
   cursor: pointer;
+  transition: 0.3s;
 }
 .gallery .box {
   position: relative;

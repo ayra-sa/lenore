@@ -26,6 +26,7 @@
 }
 .ss-list {
   margin: 7rem 0;
+  position: relative;
 }
 .ss-list h4 {
   margin-bottom: 5rem;
@@ -81,7 +82,37 @@
 .gallery__selector:checked ~ .gallery__thumb > img {
   box-shadow: 0 0 0 3px var(--oren);
 }
+.circle {
+  position: absolute;
+}
+.ss-hex {
+  z-index: 11;
+  top: -30%;
+  left: -30%;
+}
+.circle-ss {
+  top: 0;
+  left: 10%;
+}
+.anim-loop {
+  animation: rotate 8s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
 
+  to {
+    transform: rotate(359deg);
+  }
+}
+.anim-s-ss {
+  left: -35px;
+  top: 100px;
+}
+.anim-ss {
+  text-align: end;
+}
 /* detail */
 .switchSystem-detail {
   margin-top: 4rem;

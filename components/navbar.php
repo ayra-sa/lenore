@@ -30,7 +30,7 @@
           
           <!-- Navbar dropdown -->
           <li class="nav-item dropdown position-static">
-            <a class="nav-link dropdown-toggle" href="#product" id="navbarDropdown" role="button"
+            <a class="nav-link scrollto dropdown-toggle" href="#product" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Product
             </a>
@@ -69,7 +69,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link scrollto" href="#abouta">Switches & System</a>
+            <a class="nav-link scrollto" href="switch_system.php">Switches & System</a>
           </li>
           <li class="nav-item"><a class="nav-link scrollto" href="projects-gallery.php">Projects</a></li>
           <li class="nav-item"><a class="nav-link scrollto" href="blog-list.php">Blog</a></li>
