@@ -222,7 +222,7 @@
               <div class="content">
                 <h3 class="mb-3 title fs-40">The Story Of Our Lights</h3>
                 <p>
-                  When we strive to learn every aspect of light with passion. Cahaya Desain Indonesia was established in 2015 with its sole purpose to deliver best Value by adding professionalism to passion.
+                  We strive to learn every aspect of light with passion. Cahaya Desain Indonesia was established in 2015 with its sole purpose to deliver best Value by adding professionalism to passion.
                 </p>
                 <div class="sub-story mb-4 d-flex">
                   <i class="story-icon"></i>
@@ -365,7 +365,7 @@
                 alt="products"
               />
               <figcaption>
-                <p class="fs-50 title text-light text">Interiror</p>
+                <p class="fs-50 title text-light text">Interior</p>
                 <button class="btn btn-view">
                   <a href="products-list.php" class="btn-view-all">View All Products</a>
                 </button>
