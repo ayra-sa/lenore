@@ -71,8 +71,8 @@
           <li class="nav-item">
             <a class="nav-link scrollto" href="switch_system.php">Switches & System</a>
           </li>
-          <li class="nav-item"><a class="nav-link scrollto" href="projects-gallery.php">Projects</a></li>
-          <li class="nav-item"><a class="nav-link scrollto" href="blog-list.php">Blog</a></li>
+          <li class="nav-item"><a class="nav-link scrollto" href="#gallery">Projects</a></li>
+          <li class="nav-item"><a class="nav-link scrollto" href="#blog">Blog</a></li>
           <li class="nav-item">
             <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#getCatalogue" href="">Get Catalogue</a>
           </li>
