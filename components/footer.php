@@ -7,7 +7,7 @@
             <div class="logo">
                 <a href="index.html"><img src="assets/Homepage/LOGO LENORE-01.png" alt="logo"></a>
               </div>
-              <p>Provide the best Products & Services. We make sure the best product for every customers designs, the best products for every customers expectation.</p>
+              <p>Provide the best Products & Services. We make sure the best products for your design and expectation</p>
               <div class="social d-flex gap-3">
                 <a href="#"><img src="assets/Homepage/socmed - IG.png" alt="social"></a>
                 <a href="#"><img src="assets/Homepage/socmed - FB.png" alt="social"></a>
