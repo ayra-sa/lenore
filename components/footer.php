@@ -7,7 +7,7 @@
             <div class="logo">
                 <a href="index.html"><img src="assets/Homepage/LOGO LENORE-01.png" alt="logo"></a>
               </div>
-              <p>Provide the best Products & Services. We make sure the best products for your design and expectation</p>
+              <!--<p>Provide the best Products & Services. We make sure the best products for your design and expectation</p>-->
               <div class="social d-flex gap-3">
                 <a href="#"><img src="assets/Homepage/socmed - IG.png" alt="social"></a>
                 <a href="#"><img src="assets/Homepage/socmed - FB.png" alt="social"></a>
@@ -39,9 +39,9 @@
                 <li>
                   <span class="icon pin"></span>
                   <span class="text-f">
-                    Jl. Bandengan Selatan 43,
-                    Penjaringan, Jakarta Utara 14450
-                    Komplek Ruko Putri Deltamas Blok D 35
+                    Jalan Bandengan Selatan No. 43, 
+                    Komplek Ruko Puri Deltamas Blok. D
+                    No.35,Penjaringan, Jakarta Utara14450
                   </span>
                 </li>
                 <li>
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <span class="icon mail"></span>
-                  <span class="text-f">adm.cdindonesia.com</span>
+                  <span class="text-f">lenorelightingcdi@gmail.com</span>
                 </li>
               </ul>
             </div>

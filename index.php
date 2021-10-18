@@ -22,9 +22,6 @@
     <link rel="stylesheet" href="assets/Font/Urbanist-Bold.ttf" />
     <link rel="stylesheet" href="assets/Font/Urbanist-ExtraBold.ttf" />
 
-    <!-- masonry -->
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link
@@ -92,7 +89,7 @@
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animate__animated animate__fadeInDown text-start">
-                    Lighting Innovation for People
+                    Let Your Light Shine
                   </h2>
                 </div>
               </div>
@@ -109,7 +106,7 @@
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animate__animated animate__fadeInDown">
-                    Lighting Innovation for People
+                    Let Your Light Shine
                   </h2>
                 </div>
               </div>
@@ -129,7 +126,7 @@
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animate__animated animate__fadeInDown">
-                    Lighting Innovation for People
+                    Let Your Light Shine
                   </h2>
                 </div>
               </div>
@@ -149,7 +146,7 @@
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animate__animated animate__fadeInDown">
-                    Lighting Innovation for People
+                    Let Your Light Shine
                   </h2>
                 </div>
               </div>
@@ -169,7 +166,7 @@
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animate__animated animate__fadeInDown">
-                    Lighting Innovation for People
+                    Let Your Light Shine
                   </h2>
                 </div>
               </div>
@@ -211,11 +208,20 @@
         <div class="container-fluida">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 align-items-stretch">
-              <img
-                src="assets/Homepage/story of our light.png"
-                class="img-fluid"
-                alt="story"
-              />
+              <!--<img src="assets/Homepage/story of our light.png" class="img-fluid" alt="story" />-->
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/Project Gallery/Soetta/3(1).png" class="d-block w-100" alt="story" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/Project Gallery/Adidas PIM/4(1).png" class="d-block w-100" alt="story" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/Project Gallery/Soetta/4(1).png" class="d-block w-100" alt="story" />
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="col-lg-6 col-md-6 d-flex flex-column">
@@ -238,24 +244,38 @@
                   <i class="story-icon"></i>
                   <div class="info-story">
                     <p class="fw-bold fs-5 mb-2 title-2">The Mission Of Our Light :</p>
-                    <p class="text-uppercase mb-2">CREATING CUSTOMER ORIENTED RELATIONSHIP.</p>
-                    <p>
-                      Realizing that satisfied customer is our key to success, customer relationship is our business value.
-                    </p>
+                    <div class="desc-story mb-3">
+                      <p class="text-uppercase mb-2">CREATING CUSTOMER ORIENTED RELATIONSHIP</p>
+                      <p>
+                        Realizing that satisfied customer is our key to success, customer relationship is our business value.
+                      </p>
+                    </div>
+                    <div class="desc-story mb-3">
+                      <p class="text-uppercase mb-2">Creative, Innovation & Intuitive</p>
+                      <p>
+                        Consulting the best choice of products in Creative, Innovative & Intuitive ways possible.
+                      </p>
+                    </div>
+                    <div class="desc-story mb-3">
+                      <p class="text-uppercase mb-2">Provide the best Products & Services</p>
+                      <p>
+                        We make sure the best product for every customer designs, the best products for every customer expectation.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
             <div class="hexagon st-hex">
               <img src="assets/Homepage/story of our light - hexagon.png" alt="" class="imf-fluid">
             </div>
-          </div>
         </div>
       </section>
       <!-- End About Section -->
 
       <!-- Satisfaction -->
-      <section class="satisfaction" id="satisfaction">
+      <!--<section class="satisfaction" id="satisfaction">
         <div class="dots sf-dots">
           <img src="assets/Homepage/sp - dots.png" alt="">
         </div>
@@ -326,7 +346,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- End Satisfaction -->
 
       <!-- Products -->
